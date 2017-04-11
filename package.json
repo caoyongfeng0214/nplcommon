@@ -1,0 +1,13 @@
+{
+  "name": "string",
+  "version": "0.0.1",
+  "main": "./string.lua",
+  "description": "",
+  "author": {
+    "name": "CaoYongfeng",
+    "email": "me@caoyongfeng.com"
+  },
+  "dependencies": {
+
+  }
+}
