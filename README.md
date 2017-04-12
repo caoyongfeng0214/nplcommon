@@ -14,9 +14,7 @@
 
 > ## 文档
 
-* [replace](#replace)
-
-> ## **replace(oldValue, newValue)**
+> **replace(oldValue, newValue)**
 
     返回一个新字符串，其中当前实例中出现的所有指定字符串都替换为另一个指定的字符串。
     更好的：http://lua-users.org/wiki/StringReplace
