@@ -49,7 +49,7 @@
         return s:upper();
       end); => 'HELLO ParaEngine'
 
-> **split(separator, outResults)**
+> ### split(separator, outResults)
 
     拆分字符串
     示例：
@@ -57,14 +57,14 @@
       local ary = str:split(','); => {'aaa', 'bbb', 'ccc'}
       local ary = string.split(str, ','); => {'aaa', 'bbb', 'ccc'}
 
-> **join(separator, list)**
+> ### join(separator, list)
 
     将字符串数组合并为一个字符串，并以指定的字符间隔。
     示例：
       local list = {'aaa', 'bbb', 'ccc'};
       local str = string.join(',', list); => 'aaa,bbb,ccc'
 
-> **trim()**
+> ### trim()
 
     去除字符串开始和结尾处的空格
     示例：
@@ -72,7 +72,7 @@
       local str2 = str:trim(); => 'abcdefg';
       local str2 = string.trim(str); => 'abcdefg'
 
-> **trimStart()**
+> ### trimStart()
 
     去除字符串开始处的空格
     示例：
@@ -80,7 +80,7 @@
       local str2 = str:trimStart(); => 'abcdefg   ';
       local str2 = string.trimStart(str); => 'abcdefg   '
 
-> **trimEnd()**
+> ### trimEnd()
 
     去除字符串结尾处的空格
     示例：
@@ -88,7 +88,7 @@
       local str2 = str:trimEnd(); => '  abcdefg';
       local str2 = string.trimEnd(str); => '  abcdefg'
 
-> **startsWith(str, ignoreCase)**
+> ### startsWith(str, ignoreCase)
 
     判断字符串的开头是否与指定字符串匹配
     params:
@@ -102,7 +102,7 @@
       local bl = str:startsWith(str2, true); => true
       local bl = string.startsWith(str, str2, true); => true
 
-> **endsWith(str, ignoreCase)**
+> ### endsWith(str, ignoreCase)
 
     判断字符串的结尾是否与指定字符串匹配
     params:
@@ -116,7 +116,7 @@
       local bl = str:endsWith(str2, true); => true
       local bl = string.endsWith(str, str2, true); => true
 
-> **encodeURI()**
+> ### encodeURI()
 
     把字符串作为 URI 进行编码。某些字符将被十六进制的转义序列进行替换。
     示例：
@@ -124,7 +124,7 @@
       local str2 = str:encodeURI(); => http%3A%2F%2Fwww.nooong.com
       local str2 = string.encodeURI(str); => http%3A%2F%2Fwww.nooong.com
 
-> **decodeURI()**
+> ### decodeURI()
 
     可对 encodeURI() 函数编码过的 URI 进行解码。
     示例：
