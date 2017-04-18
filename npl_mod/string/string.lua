@@ -176,8 +176,8 @@ end
 把字符串作为 URI 进行编码。某些字符将被十六进制的转义序列进行替换。
 示例：
 	local str = 'http://www.nooong.com';
-	local str2 = str:encodeURI(); => 
-	local str2 = string.encodeURI(str); => 
+	local str2 = str:encodeURI(); => http%3A%2F%2Fwww.nooong.com
+	local str2 = string.encodeURI(str); => http%3A%2F%2Fwww.nooong.com
 ]]
 function string:encodeURI()
 	local str = string.gsub(self, '\n', '\r\n');
@@ -192,7 +192,10 @@ end
 --[[
 可对 encodeURI() 函数编码过的 URI 进行解码。
 示例：
-	
+	local str = 'http://www.nooong.com';
+    local str2 = str:encodeURI(); => http%3A%2F%2Fwww.nooong.com
+	local str3 = str2:decodeURI(); => http://www.nooong.com
+	local str4 = string.decodeURI(str2); => http://www.nooong.com
 ]]
 function string:decodeURI()
 	local str = string.gsub(self, '+', ' ');
