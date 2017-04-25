@@ -11,3 +11,10 @@
 [string](https://github.com/caoyongfeng0214/nplcommon/wiki/string)
 
 [setTimeout](https://github.com/caoyongfeng0214/nplcommon/wiki/setTimeout)
+
+[clearTimeout](https://github.com/caoyongfeng0214/nplcommon/wiki/clearTimeout)
+
+[setInterval](https://github.com/caoyongfeng0214/nplcommon/wiki/setInterval)
+
+[clearInterval](https://github.com/caoyongfeng0214/nplcommon/wiki/clearInterval)
+
