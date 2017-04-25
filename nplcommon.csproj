@@ -33,11 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="package.json" />
-    <None Include="string.lua" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <None Include="npl_mod\common\common.lua" />
+    <None Include="npl_mod\common\package.json" />
+    <None Include="npl_mod\common\string.lua" />
+    <None Include="npl_mod\common\timer.lua" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
