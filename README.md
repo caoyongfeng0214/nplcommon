@@ -2,6 +2,10 @@
 
 针对NPL的一些常用方法的封装。
 
+这些方法要么是对原有对象的扩展，要么是全局方法。因此，你只需要项目启动时加载此模块即可：
+
+    NPL.load('common');
+
 *****
 
 [string](https://github.com/caoyongfeng0214/nplcommon/wiki/string)
