@@ -1,5 +1,5 @@
 ﻿local str = require('./string');
-local timer = requier('./timer');
+local timer = require('./timer');
 
 local common = {
 	string = str,
