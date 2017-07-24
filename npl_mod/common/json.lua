@@ -16,7 +16,7 @@ end;
 
 -- 将一个Lua数据转为JSON格式的字符串
 _G.JSON.tostring = function(data)
-	return NPL.ToJSON(data);
+	return NPL.ToJSON(data, true);
 end;
 
 _G.JSON.string = _G.JSON.tostring;
