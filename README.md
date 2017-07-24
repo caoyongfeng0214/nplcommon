@@ -18,3 +18,4 @@
 
 [clearInterval](https://github.com/caoyongfeng0214/nplcommon/wiki/clearInterval)
 
+[JSON](https://github.com/caoyongfeng0214/nplcommon/wiki/JSON)
