@@ -1,4 +1,5 @@
-﻿NPL.load("(gl)script/ide/Json.lua");
+﻿NPL.load('script/ide/commonlib.lua');
+NPL.load('script/ide/Json.lua');
 
 
 _G.JSON = {};
@@ -16,7 +17,7 @@ end;
 
 -- 将一个Lua数据转为JSON格式的字符串
 _G.JSON.tostring = function(data)
-	return NPL.ToJSON(data, true);
+	return commonlib.Json.Encode(data);
 end;
 
 _G.JSON.string = _G.JSON.tostring;
